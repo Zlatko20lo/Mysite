@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEVRA SERVICE GmbH – IT-Dienstleistungen & EDV-Support</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #fff;
+            background-color: #111;
+        }
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+        p {
+            font-size: 1.4em;
+            line-height: 1.6em;
+        }
+        section {
+            padding: 80px 10%;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0,0,0,0.65);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        .hero h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5em;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #1c1c1c;
+            gap: 40px;
+        }
+        .about img {
+            width: 45%;
+            border-radius: 10px;
+        }
+        .services, .advantages, .process, .contact-form, .contacts {
+            background-color: #181818;
+        }
+        .services-items, .advantages-items, .process-steps {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        .service, .advantage, .step {
+            flex: 1;
+            min-width: 250px;
+            background-color: #222;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .contacts {
+            background-color: #1c1c1c;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .contacts img {
+            width: 45%;
+            border-radius: 10px;
+        }
+        .contact-text {
+            width: 50%;
+        }
+        .contact-form p {
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hauptbildschirm -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>LEVRA SERVICE GmbH</h1>
+            <p>Ihr zuverlässiger Partner für IT-Dienstleistungen und professionellen EDV-Support. 
+               Wir verbinden technisches Know-how mit persönlichem Service, um Ihre IT-Infrastruktur sicher, stabil und effizient zu gestalten.</p>
+        </div>
+    </section>
+
+    <!-- Über uns -->
+    <section class="about">
+        <div>
+            <h2>Wer wir sind</h2>
+            <p>LEVRA SERVICE GmbH ist ein österreichisches IT-Unternehmen mit Fokus auf nachhaltige und maßgeschneiderte IT-Lösungen. 
+               Unser Team unterstützt kleine und mittelständische Betriebe bei allen Fragen rund um IT-Systeme, Netzwerke und Hardware. 
+               Wir stehen für Zuverlässigkeit, Transparenz und lösungsorientiertes Arbeiten. 
+               Ob akuter EDV-Support oder langfristige IT-Betreuung – wir sind für Sie da. 
+               Unser Ziel ist es, Ihre Systeme so zu gestalten, dass Sie sich ganz auf Ihr Kerngeschäft konzentrieren können.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1714974528704-befac88c2fd6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fEJ1c2luZXNzJTJDJTIwbWFuYWdlbWVudCUyMCUyMGFuZCUyMGZpbmFuY2UlMjBjb25zdWx0aW5nJTIwc2VydmljZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600" alt="Team bei der IT-Arbeit">
+    </section>
+
+    <!-- Unsere Leistungen -->
+    <section class="services">
+        <h2>Unsere IT-Leistungen</h2>
+        <div class="services-items">
+            <div class="service">
+                <h3>EDV-Support & Systemwartung</h3>
+                <p>Wir bieten schnelle und kompetente Hilfe bei technischen Problemen. 
+                   Von Hardwarefehlern bis Softwarekonfiguration – unser Support sorgt für reibungslose Abläufe und minimale Ausfallzeiten.</p>
+            </div>
+            <div class="service">
+                <h3>Netzwerkmanagement & Sicherheit</h3>
+                <p>Wir planen, installieren und warten sichere Firmennetzwerke. 
+                   Durch gezielte Sicherheitskonzepte schützen wir Ihre Daten vor Angriffen und sorgen für stabile Verbindungen.</p>
+            </div>
+            <div class="service">
+                <h3>Cloud- & Serverlösungen</h3>
+                <p>LEVRA SERVICE GmbH entwickelt skalierbare IT-Infrastrukturen – lokal oder in der Cloud. 
+                   Wir beraten Sie zu sicheren, kosteneffizienten Serverlösungen für Ihr Unternehmen.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vorteile -->
+    <section class="advantages">
+        <h2>Warum LEVRA SERVICE?</h2>
+        <div class="advantages-items">
+            <div class="advantage">
+                <h3>Persönlicher Kontakt</h3>
+                <p>Bei uns sprechen Sie nicht mit einem anonymen Callcenter, sondern direkt mit erfahrenen Technikern, die Ihre Systeme kennen.</p>
+            </div>
+            <div class="advantage">
+                <h3>Schnelle Reaktionszeit</h3>
+                <p>Unsere Support-Teams reagieren zeitnah auf Anfragen – egal ob vor Ort oder per Fernwartung.</p>
+            </div>
+            <div class="advantage">
+                <h3>Individuelle Lösungen</h3>
+                <p>Wir passen unsere IT-Dienstleistungen exakt an Ihre betrieblichen Anforderungen an – flexibel, transparent und skalierbar.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unser Prozess -->
+    <section class="process">
+        <h2>So arbeiten wir</h2>
+        <div class="process-steps">
+            <div class="step">
+                <h3>1. Analyse & Beratung</h3>
+                <p>Wir prüfen Ihre aktuelle IT-Struktur, identifizieren Schwachstellen und erarbeiten gemeinsam mit Ihnen die passende Strategie.</p>
+            </div>
+            <div class="step">
+                <h3>2. Umsetzung & Optimierung</h3>
+                <p>Unsere Experten implementieren Lösungen effizient und störungsfrei – inklusive Einrichtung, Test und Dokumentation.</p>
+            </div>
+            <div class="step">
+                <h3>3. Betreuung & Weiterentwicklung</h3>
+                <p>Auch nach der Umsetzung bleiben wir Ihr Partner – mit proaktivem Support, Wartung und laufender Systemverbesserung.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontaktformular Text -->
+    <section class="contact-form">
+        <h2>Kontakt aufnehmen</h2>
+        <p>Haben Sie Fragen oder möchten Sie ein unverbindliches Angebot? 
+           Füllen Sie das Formular aus – unser Team meldet sich zeitnah bei Ihnen. 
+           Gemeinsam finden wir die passende IT-Lösung für Ihr Unternehmen.</p>
+    </section>
+
+    <!-- Kontaktblock -->
+    <section class="contacts">
+        <div class="contact-text">
+            <h2>Kontaktieren Sie uns</h2>
+            <p>Schreiben Sie uns direkt an <strong>office@levraservice.org</strong> oder besuchen Sie uns in:</p>
+            <p><strong>Oberst-Perleß-Straße 2, Straß, Steiermark, 8472</strong></p>
+            <p>Wir freuen uns darauf, Ihr Unternehmen digital zu stärken. 
+               Vertrauen Sie auf Erfahrung, Kompetenz und partnerschaftliche Zusammenarbeit.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGUlMjBtYWlsfGVufDB8fDB8fHww" alt="Kontakt LEVRA SERVICE GmbH">
+    </section>
+
+</body>
+</html>
